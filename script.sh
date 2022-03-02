@@ -12,7 +12,10 @@ docker build -t sharan-ecr .
 docker tag sharan-ecr:latest 883195043912.dkr.ecr.us-west-2.amazonaws.com/sharan-ecr:latest
 docker push 883195043912.dkr.ecr.us-west-2.amazonaws.com/sharan-ecr:latest
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f904b869e9282a8819b4a9f937faa0cae93b9ff7
 helm create clientapp
 helm upgrade --install sharan-client clientapp
 helm ls
